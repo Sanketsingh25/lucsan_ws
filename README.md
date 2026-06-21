@@ -54,7 +54,6 @@ The project is tightly coupled with the **Yoyo** food delivery robot, where the 
 └─────────────────────────────────────────────────────────┘
 ```
 
-The architecture bridges a ROS1 Docker-based chassis driver to the ROS2 navigation stack via a **custom Python WebSocket bridge** (`rosbridge_suite` + `roslibpy`), enabling real hardware reuse of the simulation stack.
 
 ---
 
@@ -94,15 +93,9 @@ The architecture bridges a ROS1 Docker-based chassis driver to the ROS2 navigati
 lucsan_ws/
 └── src/
     ├── <robot_description>/     # URDF / xacro robot model
-    ├── <navigation>/            # Nav2 config, launch files, BT XMLs
-    ├── <localization>/          # AMCL params, auto_localizer.py
-    ├── <sensor_drivers>/        # Custom IMU driver, laser_time_fixer
-    └── <bringup>/               # start_everything.sh, launch orchestration
+    └── <bringup>/               # RVIZ,config,launch,python_script,world,map
 ```
 
-> *Note: Package names are illustrative — see `src/` for actual package names.*
-
----
 
 ## 🚀 Getting Started
 
@@ -111,7 +104,7 @@ lucsan_ws/
 - Ubuntu 22.04
 - ROS2 Humble (`ros-humble-desktop`)
 - Nav2 (`sudo apt install ros-humble-navigation2 ros-humble-nav2-bringup`)
-- Gazebo Classic
+- Gazebo ignition
 
 ### Build
 
