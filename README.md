@@ -121,14 +121,10 @@ ros2 launch syinro navigation.launch.py use_sim_time:=True
 
 ## 🧠 Key Technical Decisions
 
-### 1. Persistent Obstacle Marking
-Camera sources use `clearing: False` + `observation_persistence` to ensure chair caster wheels and low obstacles are **never erased** from the costmap during navigation — solving a real blind-zone collision problem.
 
 ### 2. No Backup Recovery
 All backward recovery behaviors are **disabled**. The robot has a rear sensor blind zone, so reversing without perception is unsafe. Recovery is spin-in-place only.
 
-### 3. Auto Localization Pipeline
-On startup, the robot: (1) loads the last saved pose, (2) waits for AMCL particle convergence, and (3) falls back to a slow global spin for relocalization — eliminating the need for manual `2D Pose Estimate` at deployment.
 
 ---
 
