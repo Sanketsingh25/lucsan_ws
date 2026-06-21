@@ -62,7 +62,6 @@ https://www.linkedin.com/posts/sanket-singh-b73254311_robotics-autonomousrobots-
 | 🧱 **Obstacle Avoidance** | Persistent costmap with depth camera + LiDAR fusion |
 | 🔄 **Auto Startup Localization** | Saved pose → AMCL convergence → global relocalization fallback |
 | 🚫 **Safe Recovery** | Spin-only recovery (no backup — rear sensor blind zone aware) |
-| 🌉 **ROS1/ROS2 Bridge** | Custom WebSocket bridge for Reeman chassis driver interop |
 | 🛞 **Sensor Fusion** | Dual depth cameras + LiDAR + WT901 IMU |
 | ⚙️ **Tuned Nav Params** | Production-validated `nav2_params.yaml` for real indoor environments |
 
