@@ -11,7 +11,6 @@
 - [Features](#-features)
 - [Tech Stack](#-tech-stack)
 - [Getting Started](#-getting-started)
-- [Key Technical Decisions](#-key-technical-decisions)
 - [Author](#-author)
 
 ---
