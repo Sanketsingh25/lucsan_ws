@@ -26,13 +26,9 @@ The project is tightly coupled with the **Yoyo** food delivery robot, where the 
 ---
 
 ## 🎬 Demo
+https://www.linkedin.com/posts/sanket-singh-b73254311_roboticsengineering-ros-autonomousvehicles-activity-7444435685434118144-xY1F?utm_source=share&utm_medium=member_android&rcm=ACoAAE88nocBCJ3q9qHaaxesoTRyz8kQhX72KM0
 
-> *(Add a GIF or video link here — e.g., Gazebo simulation, RViz navigation, or a screen recording of the robot autonomously navigating)*
-
-```
-📹 [Simulation Demo — coming soon]
-📸 Screenshots of RViz + costmaps — see /docs/images/
-```
+https://www.linkedin.com/posts/sanket-singh-b73254311_robotics-autonomousrobots-lidar-activity-7469266228042407936-NIU_?utm_source=share&utm_medium=member_android&rcm=ACoAAE88nocBCJ3q9qHaaxesoTRyz8kQhX72KM0
 
 ---
 
