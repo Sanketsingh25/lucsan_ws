@@ -10,6 +10,7 @@
 - [System Architecture](#-system-architecture)
 - [Features](#-features)
 - [Tech Stack](#-tech-stack)
+- [Package Structure](#-package-structure)
 - [Getting Started](#-getting-started)
 - [Author](#-author)
 
