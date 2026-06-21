@@ -70,7 +70,7 @@ https://www.linkedin.com/posts/sanket-singh-b73254311_robotics-autonomousrobots-
 
 - **Middleware:** ROS2 Humble
 - **Navigation:** Nav2 (AMCL, BT Navigator, Controller Server, Planner Server)
-- **Simulation:** Gazebo Classic
+- **Simulation:** Gazebo ignition 
 - **Languages:** Python (96%), CMake
 - **Sensors (real hardware mirrored in sim):**
   - LTME-02A LiDAR (Ethernet)
