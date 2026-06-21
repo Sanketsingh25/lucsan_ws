@@ -77,7 +77,6 @@ https://www.linkedin.com/posts/sanket-singh-b73254311_robotics-autonomousrobots-
   - LTME-02A LiDAR (Ethernet)
   - MetaSense615U Depth Cameras × 2
   - WT901 IMU (custom binary protocol driver)
-- **Bridge:** `rosbridge_suite` + `roslibpy` WebSocket bridge
 - **Containerization:** Docker (Reeman chassis driver isolation)
 
 ---
