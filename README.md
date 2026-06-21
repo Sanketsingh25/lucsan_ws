@@ -118,14 +118,6 @@ ros2 launch syinro my_robot_mapping.launch.py
 # For autonomus navigation
 ros2 launch syinro navigation.launch.py use_sim_time:=True
 
-
-## 🧠 Key Technical Decisions
-
-
-### 2. No Backup Recovery
-All backward recovery behaviors are **disabled**. The robot has a rear sensor blind zone, so reversing without perception is unsafe. Recovery is spin-in-place only.
-
-
 ---
 
 ## 👤 Author
